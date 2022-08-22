@@ -3,7 +3,7 @@ import requests
 import sendMsgUtils
 from getParameter import *
 from bodyTemplate import templateByBody
-
+from datetime import date
 
 def getWeather(city='广州'):
     url = "http://autodev.openspeech.cn/csp/api/v2.1/weather?openId=aiuicus&clientType=android&sign=android&city=" + city
