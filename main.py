@@ -1,7 +1,5 @@
 import math
 import requests
-
-import bodyTemplate
 import sendMsgUtils
 from getParameter import *
 from bodyTemplate import templateByBody

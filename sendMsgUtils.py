@@ -1,10 +1,7 @@
 import json
 import requests
-
 import logging
 
-
-# mainKey = 'e63382df44ae4af6afe8b3ac4f126c88'  # 管理员key，，，即使达公众号，要使用该功能的必填
 
 enableLog = False  # 是否开启日志
 
